@@ -6,16 +6,18 @@ platforms = ["linux-64"]
 version = "0.1.0"
 
 [tasks]
+notebook = "jupyter lab"
 
 [dependencies]
 python = "3.11.*"
 ipykernel = "*"
+jupyterlab = "*"
 numpy = "*"
 matplotlib = "*"
 scikit-image = "*"
 opencv = "*"
 pillow = "*"
-pytorch = "*"
-torchvision = "*"
+pytorch = "2.10.*"
+torchvision = "0.25.*"
 ultralytics = "*"
 kaggle = "*"
